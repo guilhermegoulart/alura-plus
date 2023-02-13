@@ -97,3 +97,49 @@
 .descricao__texto {
   color: var(--cinza-secundário);
 }
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 4.8rem;
+  color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 8rem 0;
+}
+
+.list__item {
+  font-size: 3.2rem;
+  color: var(--branco-principal);
+}
+
+.rodape {
+  text-align: center;
+  margin: 8rem 4.8rem;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1.6rem;
+  gap: 1.6rem;
+}
+
+.lista__link a {
+  text-decoration: none;
+  color: var(--branco-principal);
+  margin-left: 1.6rem;
+}
+
+.rodape__texto {
+  margin: 1.6rem 0;
+  font-size: 1.4rem;
+  color: var(--cinza-secundário);
+}
