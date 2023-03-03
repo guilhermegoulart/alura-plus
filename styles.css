@@ -165,3 +165,43 @@
   color: var(--cor-de-fundo);
   transition: 0.5s;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .container__imagem {
+    padding-top: 1rem;
+    width: 50vw;
+  }
+
+  .container__caixa {
+    margin: 3.2rem 3.2rem;
+  }
+
+  .container__principal {
+    margin: 0;
+  }
+
+  .principal__imagem {
+    width: 50vw;
+  }
+
+  .dispositivos__titulo {
+    font-size: 3.2rem;
+  }
+
+  .dispositivos__lista {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape__lista {
+    display: flex;
+    flex-direction: column;
+  }
+}
